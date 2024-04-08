@@ -46,3 +46,11 @@ header img {
 .gallery img:nth-child(even) {
     filter: grayscale(100%);
 }
+
+.gallery img:first-child {
+    border: 0.2rem solid #ff9b40;
+}
+
+.gallery img:last-child {
+    border: 0.2rem solid #00964b;
+}
